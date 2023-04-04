@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="programmes.css">
+    <script defer src="scroll.js"></script>
+    <title>Yogakshema Gurukulam</title>
+</head>
+<body>
+    <section class="programmepage" id="home">
+
+    <nav>
+        <div class="navLinks" id="navLinks">
+            <img src="Assets/close-menu-icon.svg" alt="" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="index.html">Programmes</a></li>
+                <li><a href="index.html">Team</a></li>
+                <li><a href="blog.html">Blogs & Products</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+        </div>
+        <img src="Assets/open-menu-iocn.svg" alt="" class="open" onclick="openMenu()">
+    </nav>
+    <div class="programmepagecoverholder">
+        <img src="" alt="" class="programmecovericon">
+        <h2 class="programmecoverheadline hidden">Indic Health Programme</h2>
+    </div>
+</section>
+<section class="programmeexpsec hidden">
+    <div class="programmecontentholder">
+        <p class="exp">The Indic Health System asserts that illness in our body and mind stems from Nature, Ignorance, Desires, and Unconscious Action. Following the prescribed routines of Indic seasons, festivals, and everyday life can promote ease and well-being in our body and mind. These routines are collectively known as Yoga, encompassing any life habits that can create ease and keep dis-ease at bay.
+        Yoga has been an integral part of India's culture and is considered essential for a healthy lifestyle. It improves physical health by enhancing flexibility, strength, balance, and cardiovascular health. It also has mental health benefits, such as reducing stress, anxiety, and depression. Unfortunately, modern lifestyles have resulted in chronic diseases such as obesity, diabetes, and heart disease, often linked to sedentary lifestyles, poor nutrition, and high levels of stress. The reliance on processed and fast foods, lack of physical activity, and increased levels of stress can adversely affect physical and mental health            
+        </p>
+        <img class="programmepageimg hidden" src="Assets/Indic-Health-and-Fitness.jpg" alt="">
+        <p class="exp hidden">Many people have turned to yoga for health, but online programs, retreats, and training courses have become increasingly expensive. It is ironic that Yoga Teacher Training Programs in India, the birthplace of yoga, are certified by international bodies like Yoga Alliance and staffed by professionals from the USA and UK. It is crucial to find an ethical, authentic source of yoga training that is affordable and does not prioritize profits.
+        The Department of Indic Health is committed to promoting healthy habits that enhance mental health, professional productivity, and relational understanding without disrupting your professional routine or financial affordability. We believe that a yogic lifestyle is not about renouncing all responsibilities and becoming a monk. Instead, it is about cultivating perfection and positivity in everything we do every day.            
+        </p>      
+        <a href=""><button class="b1">Register Now</button></a>
+    </div>
+</section>
+<footer>
+    <div class="blockholder">
+        <div class="footerlogoholder">
+            <img src="Assets/Yogakshema-logo-02.svg" alt="">
+        </div>
+        <div class="socialandcontactholder">
+            <div class="socialholder">
+                <div class="follow">
+                    <p>Follow Us On Social Media</p>
+                </div>
+                <div class="icon">
+                    <a href="https://instagram.com/yogakshemagurukulam?igshid=ZDdkNTZiNTM="><img src="Assets/Instagram icon.svg" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100091081663154&mibextid=ZbWKwL"><img src="Assets/Facebook icon.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/company/yogakshema-gurukulam/"><img src="Assets/Linkedin icon.svg" alt=""></a>
+                    <!---<a href=""><img src="Assets/Twitter icon.svg" alt=""></a>--->
+                    <a href="https://youtube.com/@yogakshemaonlinegurukulam"><img src="Assets/Youtube.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="Contactholder">
+                <div class="iconholder">
+                    <img src="Assets/call.svg" alt="">
+                    <img src="Assets/whats app.svg" alt="">
+                    <img src="Assets/email.svg" alt="">
+                </div>
+                <div class="numberholder">
+                    <a href="tel:+919538015757">+91 9538015757</a>
+                    <a href=" https://wa.me/+916363265325">+91 6363265325</a>
+                    <a href="mailto:yogakshemagurukulam@gmail.com">yogakshemagurukulam@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="linksholder">
+            <a href="">Home</a>
+            <a href="">Programmes</a>
+            <a href="">Blogs & Products</a>
+            <a href="">Register</a>
+        </div>
+    </div>
+</footer>
+<div class="copy">
+    <p>Copyright © 2022 <a href="">Yogakshema Gurukulam.</a> All rights reserved. Design and Developed by <a href="https://theonesolution.co.in/">The One Solution</a></p>
+</div>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function openMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+</script>
+</body>
+</html>

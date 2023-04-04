@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section.main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.pro{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    margin: 3%;
+
+}
+.firstphase{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstphase img{
+    width: 30%;
+    margin: 2%;
+}
+p.proexp{
+    text-align: justify;
+    margin: 1%;
+}
+.secondphase{
+    width: 100%;
+    
+}
+.hold h3{
+    font-size: 30px;
+    color: #FF7171;
+}
+@media(max-width: 500px){
+    .firstphase{
+        display: grid;
+        justify-items: center;
+    }
+
+}

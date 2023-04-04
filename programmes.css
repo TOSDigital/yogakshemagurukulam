@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.programmepage{
+    background: linear-gradient(rgba(1,1,1,.5),rgba(1,1,1,.5)),url(Assets/Cover\ pages.jpg);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.programmepagecoverholder{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 70%;
+}
+h2.programmecoverheadline{
+    text-align: center;
+    font-size: 50px;
+    color: #FFEFE2;
+}
+.programmeexpsec{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.programmecontentholder{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.programmeimages{
+    width: 40%;
+    padding: 20px;
+}
+.programmepageimg{
+    width: 30%;
+    margin: 3%;
+}
+.exp{
+    width: 60%;
+    padding: 2%;
+    font-size: 18px;
+    text-align: justify;
+}
+.blogpage{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+}
+.blogcholder{
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+.blogsec{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: left;
+}
+.blogimage1{
+    width: 70%;
+    padding: 20px;
+}
+.blogcont{
+    width: 100%;
+    padding: 15px;
+    text-align: justify;
+}
+.bloglineholder{
+    width: 100%;
+    
+}
+.bloglines{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.gurukulam{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5%;
+}
+h1.aboutgurukulam{
+    text-align: center;
+    width: 90%;
+}
+.gurukulamholder{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 90%;
+}
+.gurukulamimgholder{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+.gurukulamimgholder img{
+    width: 50%;
+}
+.gurukulampara{
+    width: 100%;
+}
+.gurukulampara p{
+    text-align: justify;
+    padding: 10px;
+
+}
+.mission{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5%;
+    background: linear-gradient(#49263d,#8C4E5D);
+    height: 75vh;
+}
+.visionmissioncardholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.vmcard{
+    width: 40%;
+    height: 350px;
+    background-color: #FFEFE2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 2%;
+    margin: 1%;
+}
+.vmcard img{
+    width: 150px;
+}
+.vmcard p{
+    text-align: justify;
+}
+.goalholder{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-items: center;
+}
+.leftholder{
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 3%;
+}
+.rightholder{
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 3%;
+}
+.topholder{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 2%;
+}
+.bottomholder{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 2%;
+}
+p.goal{
+    text-align: justify;
+}
+.hold{
+    width: 80%;
+    margin-bottom: 25px;
+}
+.blogpageimg{
+    width: 40%;
+}
+
+.summercamp{
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+}
+.summercamp h2{
+    text-align: center;
+    font-size: 35px;
+    color: #FF7171;
+}
+.summercampexp{
+    width: 80%;
+    text-align: justify;
+}
+.cover{
+    width: 100%;
+}
+table{
+    width: 70%;
+    
+    padding: 3%;
+}
+td{
+    background: #49263d;
+  text-align: center;
+  padding: 8px;
+  color: #FFEFE2;
+  text-align: center;
+}
+th{
+    background: #49263d; 
+  text-align: center;
+  padding: 8px;
+  color: #FF7171;
+}
+.profile{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.profileholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.leftprofile{
+    width: 50%;
+    padding: 1%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: #49263d;
+    margin: 2%;
+}
+h5{
+    text-align: left;
+    color: #FF7171;
+    font-size: 20px;
+    padding: 1%;
+    
+}
+.leftprofile h2{
+    color: #FF7171;
+    text-align: left ;
+    margin: .5%;
+}
+.leftprofile h3{
+    color: #FF7171;
+    text-align: left;
+}
+.profilecont{
+    width: 90%;
+    text-align: left;
+    margin-left: 1%;
+    color: #FFEFE2;
+}
+.profileimg{
+    width: 200px;
+}
+.holders{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 90%;
+    padding: 3%;
+}
+h2.blogheading{
+    color: #FF7171;
+    font-size: 35px;
+    padding: 2%;
+    text-align: center;
+
+}
+h3.blogsubpoints{
+    text-align: left;
+
+}
+
+
+@media(max-width: 860px){
+    .programmepage{
+        height: 50vh;
+    }
+    .vmcard{
+        height: 550px;
+    }
+    .blogpageimg{
+        width: 60%;
+    }
+    .profileholder{
+        display: grid;
+        justify-items: center;
+    }
+    .leftprofile{
+        width: 60%;
+    }
+}
+@media(max-width: 1233px){
+    .programmepage{
+        height: 35vh;
+    }
+    .vmcard{
+        height: 550px;
+    }
+    .blogpageimg{
+        width: 60%;
+    }
+    .profileholder{
+        display: grid;
+        justify-items: center;
+    }
+    .leftprofile{
+        width: 60%;
+    }
+}
+
+@media(max-width: 500px){
+    .programmepagecoverholder{
+        width: 90%;
+    }
+    .programmecontentholder{
+        display: grid;
+        justify-items: center;
+        width: 90%;
+    }
+    .programmeimages{
+        width: 100%;
+    }
+    .exp{
+        width: 100%;
+    }
+    .mission{
+        height: 125vh;
+    }
+    .visionmissioncardholder{
+        display: grid;
+        justify-items: center;
+        width: 90%;
+    }
+    .vmcard{
+        width: 100%;
+        margin: 5%;
+        height: 450px;
+    }
+    .aboutgurukulam{
+        width: 100%;
+        font-size: 40px;
+    }
+    .programmepageimg{
+        width: 90%;
+
+    }
+    .programmepage{
+        height: 70vh;
+    }
+    .goalholder{
+        display: grid;
+        justify-items: center;
+    }
+    .leftholder{
+        width: 100%;
+    }
+    .rightholder{
+        width: 100%;
+    }
+    .hold{
+        width: 90%;
+    }
+    .blogpageimg{
+        width: 90%;
+    }
+    table{
+        width: 100%;
+    }
+    .profileholder{
+        display: grid;
+        justify-items: center;
+    }
+    .leftprofile{
+        width: 100%;
+    }
+    .numberholder a{
+        width: 90%;
+        font-size: 14px;
+    }
+}

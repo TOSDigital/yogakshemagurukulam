@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button.b1{
+    width: 125px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background: #ff7171;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    margin: 10px;
+    font-weight: 600;
+}
+button.b1:hover{
+    border: 3px solid #ff7171;
+    background: none;
+    color: #ff7171;
+}

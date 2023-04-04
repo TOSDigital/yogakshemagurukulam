@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.blogpagecontentholder{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+.centerdiv{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+}
+h3.headingblog{
+   font-size: 35px;
+   color: #FF7171;
+   font-family: lora;
+   font-weight: 700;
+}
+p.blogexp{
+    text-align: justify;
+    padding: 2%;
+}
+img.imageblog{
+    width: 70%;
+}
+.pointscardholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.pointscard{
+    width: 30%;
+    background: #49263d;
+    padding: 3%;
+    margin: 3%;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+h4.pointsheading{
+    text-align: center;
+    color: #FF7171;
+}
+p.point{
+    text-align: justify;
+    color: #FFEFE2;
+}
+@media(max-width: 860px){
+    .centerdiv{
+        width: 90%;
+    }
+    .pointscard{
+        width: 50%;
+        
+    }
+}
+@media(max-width: 1263px){
+    .centerdiv{
+        width: 90%;
+    }
+    .pointscard{
+        width: 50%;
+        
+    }
+}
+@media(max-width: 500px){
+    .centerdiv{
+        width: 90%;
+    }
+    .pointscard{
+        width: 90%;
+        
+    }
+    .pointscardholder{
+        display: grid;
+        justify-items: center;
+    }
+}
+
+
+
+
